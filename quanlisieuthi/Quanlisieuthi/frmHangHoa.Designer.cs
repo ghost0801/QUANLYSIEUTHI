@@ -42,7 +42,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.but_OK = new System.Windows.Forms.Button();
             this.txtFind = new System.Windows.Forms.TextBox();
             this.but_Find = new System.Windows.Forms.Button();
@@ -53,7 +52,6 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,9 +70,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(155, 12);
+            this.panel1.Location = new System.Drawing.Point(0, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(443, 203);
+            this.panel1.Size = new System.Drawing.Size(414, 217);
             this.panel1.TabIndex = 14;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -201,19 +199,9 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Tên Hàng";
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.but_OK);
-            this.panel2.Controls.Add(this.txtFind);
-            this.panel2.Controls.Add(this.but_Find);
-            this.panel2.Location = new System.Drawing.Point(155, 221);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(443, 57);
-            this.panel2.TabIndex = 15;
-            // 
             // but_OK
             // 
-            this.but_OK.Location = new System.Drawing.Point(352, 17);
+            this.but_OK.Location = new System.Drawing.Point(446, 153);
             this.but_OK.Name = "but_OK";
             this.but_OK.Size = new System.Drawing.Size(75, 26);
             this.but_OK.TabIndex = 15;
@@ -224,7 +212,7 @@
             // 
             // txtFind
             // 
-            this.txtFind.Location = new System.Drawing.Point(144, 20);
+            this.txtFind.Location = new System.Drawing.Point(446, 103);
             this.txtFind.Name = "txtFind";
             this.txtFind.Size = new System.Drawing.Size(173, 20);
             this.txtFind.TabIndex = 14;
@@ -233,7 +221,7 @@
             // 
             this.but_Find.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Find.ForeColor = System.Drawing.Color.Green;
-            this.but_Find.Location = new System.Drawing.Point(33, 17);
+            this.but_Find.Location = new System.Drawing.Point(446, 52);
             this.but_Find.Name = "but_Find";
             this.but_Find.Size = new System.Drawing.Size(89, 23);
             this.but_Find.TabIndex = 13;
@@ -252,13 +240,13 @@
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(155, 315);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 226);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(443, 202);
+            this.dataGridView1.Size = new System.Drawing.Size(662, 291);
             this.dataGridView1.TabIndex = 13;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
@@ -307,18 +295,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 520);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.but_OK);
+            this.Controls.Add(this.txtFind);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.but_Find);
             this.Controls.Add(this.dataGridView1);
             this.Name = "frmHangHoa";
             this.Text = "Hàng Hóa";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -336,7 +325,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txtFind;
         private System.Windows.Forms.Button but_Find;
         private System.Windows.Forms.Button but_OK;
