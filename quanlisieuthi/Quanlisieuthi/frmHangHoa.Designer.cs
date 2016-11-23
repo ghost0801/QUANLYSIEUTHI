@@ -201,7 +201,7 @@
             // 
             // but_OK
             // 
-            this.but_OK.Location = new System.Drawing.Point(446, 153);
+            this.but_OK.Location = new System.Drawing.Point(446, 122);
             this.but_OK.Name = "but_OK";
             this.but_OK.Size = new System.Drawing.Size(75, 26);
             this.but_OK.TabIndex = 15;
@@ -212,7 +212,7 @@
             // 
             // txtFind
             // 
-            this.txtFind.Location = new System.Drawing.Point(446, 103);
+            this.txtFind.Location = new System.Drawing.Point(446, 89);
             this.txtFind.Name = "txtFind";
             this.txtFind.Size = new System.Drawing.Size(173, 20);
             this.txtFind.TabIndex = 14;
