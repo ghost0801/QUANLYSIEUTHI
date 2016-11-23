@@ -47,6 +47,7 @@
             // 
             // treeView1
             // 
+            this.treeView1.BackColor = System.Drawing.Color.Violet;
             this.treeView1.Location = new System.Drawing.Point(-2, 22);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "rGioiThieu";
@@ -69,17 +70,17 @@
             treeNode1,
             treeNode7,
             treeNode8});
-            this.treeView1.Size = new System.Drawing.Size(253, 309);
+            this.treeView1.Size = new System.Drawing.Size(253, 339);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // txtHD
             // 
-            this.txtHD.BackColor = System.Drawing.Color.White;
+            this.txtHD.BackColor = System.Drawing.Color.Violet;
             this.txtHD.Location = new System.Drawing.Point(257, 22);
             this.txtHD.Multiline = true;
             this.txtHD.Name = "txtHD";
-            this.txtHD.Size = new System.Drawing.Size(373, 309);
+            this.txtHD.Size = new System.Drawing.Size(373, 339);
             this.txtHD.TabIndex = 1;
             this.txtHD.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -88,7 +89,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
-            this.ClientSize = new System.Drawing.Size(715, 373);
+            this.ClientSize = new System.Drawing.Size(630, 361);
             this.Controls.Add(this.txtHD);
             this.Controls.Add(this.treeView1);
             this.Name = "frmHuongDan";
