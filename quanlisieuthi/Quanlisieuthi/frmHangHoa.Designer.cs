@@ -98,7 +98,7 @@
             // 
             this.but_ThemHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_ThemHang.ForeColor = System.Drawing.Color.Red;
-            this.but_ThemHang.Location = new System.Drawing.Point(273, 155);
+            this.but_ThemHang.Location = new System.Drawing.Point(292, 155);
             this.but_ThemHang.Name = "but_ThemHang";
             this.but_ThemHang.Size = new System.Drawing.Size(81, 45);
             this.but_ThemHang.TabIndex = 22;
@@ -110,7 +110,7 @@
             // 
             this.but_Ban.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Ban.ForeColor = System.Drawing.Color.DarkGreen;
-            this.but_Ban.Location = new System.Drawing.Point(162, 155);
+            this.but_Ban.Location = new System.Drawing.Point(144, 155);
             this.but_Ban.Name = "but_Ban";
             this.but_Ban.Size = new System.Drawing.Size(83, 45);
             this.but_Ban.TabIndex = 21;
@@ -246,7 +246,7 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(662, 291);
+            this.dataGridView1.Size = new System.Drawing.Size(662, 216);
             this.dataGridView1.TabIndex = 13;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
@@ -294,7 +294,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(661, 520);
+            this.ClientSize = new System.Drawing.Size(670, 445);
             this.Controls.Add(this.but_OK);
             this.Controls.Add(this.txtFind);
             this.Controls.Add(this.panel1);
