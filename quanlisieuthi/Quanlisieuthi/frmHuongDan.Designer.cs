@@ -47,7 +47,7 @@
             // 
             // treeView1
             // 
-            this.treeView1.Location = new System.Drawing.Point(38, 22);
+            this.treeView1.Location = new System.Drawing.Point(-2, 22);
             this.treeView1.Name = "treeView1";
             treeNode1.Name = "rGioiThieu";
             treeNode1.Text = "Giới thiệu";
@@ -75,7 +75,8 @@
             // 
             // txtHD
             // 
-            this.txtHD.Location = new System.Drawing.Point(297, 22);
+            this.txtHD.BackColor = System.Drawing.Color.White;
+            this.txtHD.Location = new System.Drawing.Point(257, 22);
             this.txtHD.Multiline = true;
             this.txtHD.Name = "txtHD";
             this.txtHD.Size = new System.Drawing.Size(373, 309);
@@ -86,7 +87,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(696, 367);
+            this.BackColor = System.Drawing.Color.Chocolate;
+            this.ClientSize = new System.Drawing.Size(715, 373);
             this.Controls.Add(this.txtHD);
             this.Controls.Add(this.treeView1);
             this.Name = "frmHuongDan";
