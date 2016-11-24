@@ -135,5 +135,10 @@ namespace Quanlisieuthi
             frmHuongDan frmhd = new frmHuongDan();
             frmhd.ShowDialog();
         }
+
+        private void frmĐăngNhập_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

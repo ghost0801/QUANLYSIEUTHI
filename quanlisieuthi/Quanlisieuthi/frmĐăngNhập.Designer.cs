@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmĐăngNhập));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
@@ -88,10 +89,12 @@
             // 
             // but_join
             // 
+            this.but_join.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_join.BackgroundImage")));
+            this.but_join.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_join.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_join.Location = new System.Drawing.Point(56, 125);
+            this.but_join.Location = new System.Drawing.Point(56, 116);
             this.but_join.Name = "but_join";
-            this.but_join.Size = new System.Drawing.Size(115, 30);
+            this.but_join.Size = new System.Drawing.Size(115, 39);
             this.but_join.TabIndex = 4;
             this.but_join.Text = "Đăng Nhập";
             this.but_join.UseVisualStyleBackColor = true;
@@ -99,7 +102,10 @@
             // 
             // but_out
             // 
+            this.but_out.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_out.BackgroundImage")));
+            this.but_out.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.but_out.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_out.ForeColor = System.Drawing.SystemColors.GrayText;
             this.but_out.Location = new System.Drawing.Point(299, 116);
             this.but_out.Name = "but_out";
             this.but_out.Size = new System.Drawing.Size(86, 39);
@@ -180,6 +186,8 @@
             // 
             // but_KhachHang
             // 
+            this.but_KhachHang.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_KhachHang.BackgroundImage")));
+            this.but_KhachHang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_KhachHang.Location = new System.Drawing.Point(203, 19);
             this.but_KhachHang.Name = "but_KhachHang";
             this.but_KhachHang.Size = new System.Drawing.Size(82, 39);
@@ -190,6 +198,8 @@
             // 
             // but_NhanVien
             // 
+            this.but_NhanVien.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_NhanVien.BackgroundImage")));
+            this.but_NhanVien.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_NhanVien.Location = new System.Drawing.Point(305, 19);
             this.but_NhanVien.Name = "but_NhanVien";
             this.but_NhanVien.Size = new System.Drawing.Size(77, 39);
@@ -200,6 +210,8 @@
             // 
             // but_HoaDon
             // 
+            this.but_HoaDon.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_HoaDon.BackgroundImage")));
+            this.but_HoaDon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_HoaDon.Location = new System.Drawing.Point(103, 19);
             this.but_HoaDon.Name = "but_HoaDon";
             this.but_HoaDon.Size = new System.Drawing.Size(75, 39);
@@ -232,6 +244,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmĐăngNhập";
             this.Text = "Đăng Nhập";
+            this.Load += new System.EventHandler(this.frmĐăngNhập_Load);
             this.pAcc.ResumeLayout(false);
             this.pAcc.PerformLayout();
             this.ResumeLayout(false);
