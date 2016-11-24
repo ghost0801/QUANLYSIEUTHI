@@ -73,9 +73,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(155, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(392, 203);
+            this.panel1.Size = new System.Drawing.Size(443, 203);
             this.panel1.TabIndex = 14;
             // 
             // txtID
@@ -90,7 +90,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(17, 11);
+            this.label5.Location = new System.Drawing.Point(36, 11);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 16);
             this.label5.TabIndex = 23;
@@ -128,7 +128,7 @@
             this.but_Nhap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_Nhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Nhap.ForeColor = System.Drawing.Color.DarkOrange;
-            this.but_Nhap.Location = new System.Drawing.Point(30, 155);
+            this.but_Nhap.Location = new System.Drawing.Point(33, 155);
             this.but_Nhap.Name = "but_Nhap";
             this.but_Nhap.Size = new System.Drawing.Size(79, 45);
             this.but_Nhap.TabIndex = 20;
@@ -168,7 +168,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 119);
+            this.label4.Location = new System.Drawing.Point(30, 119);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 16);
             this.label4.TabIndex = 15;
@@ -178,7 +178,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(17, 86);
+            this.label3.Location = new System.Drawing.Point(36, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 16);
             this.label3.TabIndex = 14;
@@ -188,7 +188,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 63);
+            this.label2.Location = new System.Drawing.Point(36, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 16);
             this.label2.TabIndex = 13;
@@ -199,7 +199,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 37);
+            this.label1.Location = new System.Drawing.Point(36, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 16);
             this.label1.TabIndex = 12;
@@ -210,14 +210,14 @@
             this.panel2.Controls.Add(this.but_OK);
             this.panel2.Controls.Add(this.txtFind);
             this.panel2.Controls.Add(this.but_Find);
-            this.panel2.Location = new System.Drawing.Point(12, 221);
+            this.panel2.Location = new System.Drawing.Point(155, 221);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(392, 57);
+            this.panel2.Size = new System.Drawing.Size(443, 57);
             this.panel2.TabIndex = 15;
             // 
             // but_OK
             // 
-            this.but_OK.Location = new System.Drawing.Point(317, 15);
+            this.but_OK.Location = new System.Drawing.Point(352, 17);
             this.but_OK.Name = "but_OK";
             this.but_OK.Size = new System.Drawing.Size(75, 26);
             this.but_OK.TabIndex = 15;
@@ -228,7 +228,7 @@
             // 
             // txtFind
             // 
-            this.txtFind.Location = new System.Drawing.Point(115, 19);
+            this.txtFind.Location = new System.Drawing.Point(144, 20);
             this.txtFind.Name = "txtFind";
             this.txtFind.Size = new System.Drawing.Size(173, 20);
             this.txtFind.TabIndex = 14;
@@ -237,7 +237,7 @@
             // 
             this.but_Find.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Find.ForeColor = System.Drawing.Color.Green;
-            this.but_Find.Location = new System.Drawing.Point(20, 17);
+            this.but_Find.Location = new System.Drawing.Point(33, 17);
             this.but_Find.Name = "but_Find";
             this.but_Find.Size = new System.Drawing.Size(89, 23);
             this.but_Find.TabIndex = 13;
@@ -256,13 +256,13 @@
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 284);
+            this.dataGridView1.Location = new System.Drawing.Point(155, 315);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(392, 202);
+            this.dataGridView1.Size = new System.Drawing.Size(443, 202);
             this.dataGridView1.TabIndex = 13;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
@@ -310,8 +310,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Chocolate;
-            this.ClientSize = new System.Drawing.Size(406, 489);
+            this.ClientSize = new System.Drawing.Size(661, 520);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
