@@ -58,3 +58,17 @@ F:\qlSIEUTHI\Quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.frmHoaDon.resou
 F:\qlSIEUTHI\Quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.frmKhachHang.resources
 F:\qlSIEUTHI\Quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.Properties.Resources.resources
 F:\qlSIEUTHI\Quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.csproj.GenerateResource.Cache
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\bin\Debug\Quanlisieuthi.exe.config
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.exe
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.pdb
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\bin\Debug\Quanlisieuthi.exe
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\bin\Debug\Quanlisieuthi.pdb
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.csprojResolveAssemblyReference.cache
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.frmHuongDan.resources
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.frmNhanVien.resources
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.frmĐăngNhập.resources
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.frmHangHoa.resources
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.frmHoaDon.resources
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.frmKhachHang.resources
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.Properties.Resources.resources
+C:\Users\Le Son\Documents\GitHub\QUANLYSIEUTHI\quanlisieuthi\Quanlisieuthi\obj\Debug\Quanlisieuthi.csproj.GenerateResource.Cache
