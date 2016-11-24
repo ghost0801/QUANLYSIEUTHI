@@ -222,6 +222,8 @@
             // 
             // but_HangHoa
             // 
+            this.but_HangHoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_HangHoa.BackgroundImage")));
+            this.but_HangHoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_HangHoa.Location = new System.Drawing.Point(11, 19);
             this.but_HangHoa.Name = "but_HangHoa";
             this.but_HangHoa.Size = new System.Drawing.Size(75, 39);

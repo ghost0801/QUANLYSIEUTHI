@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNhanVien));
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtNgaySinh = new System.Windows.Forms.TextBox();
             this.txtCMND = new System.Windows.Forms.TextBox();
@@ -175,6 +176,8 @@
             // 
             // but_Ins
             // 
+            this.but_Ins.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_Ins.BackgroundImage")));
+            this.but_Ins.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_Ins.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Ins.Location = new System.Drawing.Point(8, 208);
             this.but_Ins.Name = "but_Ins";
