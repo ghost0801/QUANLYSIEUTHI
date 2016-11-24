@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmKhachHang));
             this.panel1 = new System.Windows.Forms.Panel();
             this.but_Del = new System.Windows.Forms.Button();
             this.but_Up = new System.Windows.Forms.Button();
@@ -74,6 +75,8 @@
             // 
             // but_Del
             // 
+            this.but_Del.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_Del.BackgroundImage")));
+            this.but_Del.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_Del.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Del.Location = new System.Drawing.Point(297, 183);
             this.but_Del.Name = "but_Del";
@@ -96,12 +99,15 @@
             // 
             // but_Ins
             // 
+            this.but_Ins.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("but_Ins.BackgroundImage")));
+            this.but_Ins.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_Ins.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Ins.Location = new System.Drawing.Point(37, 183);
             this.but_Ins.Name = "but_Ins";
             this.but_Ins.Size = new System.Drawing.Size(88, 53);
             this.but_Ins.TabIndex = 16;
             this.but_Ins.Text = "Thêm Khách Hàng";
+            this.but_Ins.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.but_Ins.UseVisualStyleBackColor = true;
             this.but_Ins.Click += new System.EventHandler(this.but_Ins_Click);
             // 
@@ -149,9 +155,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(15, 95);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 16);
+            this.label3.Size = new System.Drawing.Size(125, 16);
             this.label3.TabIndex = 10;
-            this.label3.Text = "SDT_KhachHang";
+            this.label3.Text = "SĐT_KhachHang";
             // 
             // label2
             // 
@@ -190,7 +196,7 @@
             this.but_OK.Name = "but_OK";
             this.but_OK.Size = new System.Drawing.Size(86, 31);
             this.but_OK.TabIndex = 2;
-            this.but_OK.Text = "Xong";
+            this.but_OK.Text = "OK";
             this.but_OK.UseVisualStyleBackColor = true;
             this.but_OK.Visible = false;
             this.but_OK.Click += new System.EventHandler(this.but_OK_Click);
@@ -204,6 +210,7 @@
             // 
             // but_Find
             // 
+            this.but_Find.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_Find.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Find.Location = new System.Drawing.Point(18, 3);
             this.but_Find.Name = "but_Find";
